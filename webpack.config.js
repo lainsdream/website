@@ -12,5 +12,9 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "Maksim Ermolaev",
+    }),
+  ],
 };
