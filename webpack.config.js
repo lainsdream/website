@@ -11,6 +11,10 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg|ico)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
